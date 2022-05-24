@@ -1,5 +1,4 @@
 /* General Style */
-
 :root {
   --font-color: hsl(193, 38%, 86%);
   --hover-color: hsl(150, 100%, 66%);
@@ -14,7 +13,6 @@ body {
   font-family: "Manrope", sans-serif;
 }
 /* ************ */
-
 .advice__item {
   background-color: var(--Dark-Grayish-Blue);
   color: var(--font-color);

@@ -3,8 +3,8 @@ const adviceBody = document.getElementById("adviceBody");
 const adviceId = document.getElementById("adviceId");
 const adviceBtn = document.getElementById("adviceBtn");
 
-onload(getAdvice());
-// adviceBtn.addEventListener("click", getAdvice);
+window.onload = getAdvice();
+adviceBtn.addEventListener("click", getAdvice);
 
 function getAdvice() {
   fetch(URL).then((response) => {
