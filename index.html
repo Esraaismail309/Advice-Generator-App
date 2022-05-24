@@ -21,31 +21,29 @@
         <div class="row align-items-center h-100 justify-content-center">
           <div class="col-md-4 text-center rounded-3">
             <div class="advice__item position-relative py-3 m-auto">
-              <h6 class="text-capitalize mt-2">ADVICE #117</h6>
-              <p class="mt-3 px-4 h3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus, ducimus saepe sed maxime distinctio praesentium nemo
-                harum
-              </p>
+              <h6 class="text-capitalize mt-2" id="adviceId"></h6>
+              <p class="mt-3 px-4 h3" id="adviceBody"></p>
               <img
                 src="./images/pattern-divider-desktop.svg"
                 class="img-fluid mt-3 mb-5 px-4"
                 alt="pattern-divider"
               />
-              <div
-                class="advice__item-btn position-absolute start-50 translate-middle-x p-3 rounded-circle"
+              <button
+                id="adviceBtn"
+                class="advice__item-btn position-absolute start-50 translate-middle-x p-3 rounded-circle border-0"
               >
                 <img
                   src="./images/icon-dice.svg"
                   class="img-fluid"
                   alt="icon-dice"
                 />
-              </div>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="./Js/main.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
